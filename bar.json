@@ -3,5 +3,5 @@
   "foo": "barrington",
   "organization": "Cumulus",
   "name" : "Test Topology From Github",
-  "duplicate" : false 
+  "duplicate" : "false" 
  }

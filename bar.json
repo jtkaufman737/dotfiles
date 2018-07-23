@@ -3,4 +3,22 @@
   "foo": "barrington",
   "name" : "JULY23",
   "duplicate" : "false" 
+  "topologyNodes": [
+    "Leaf01": {
+      "name": "Leaf01",
+      "topology": "48c18fa0-23ba-4d8b-ad51-55417b094db9",
+      "os": "4",
+      "memory":"3",
+      "storage":"2",
+      "cpu":"1"
+    },
+    "Leaf02" : {
+      "name": "Leaf01",
+      "topology": "48c18fa0-23ba-4d8b-ad51-55417b094db9",
+      "os": "5",
+      "memory":"6",
+      "storage":"7",
+      "cpu":"8"
+    },
+  ]
  }

@@ -4,4 +4,23 @@
 	"name": "JULY23 - BARRYS",
 	"duplicate": "false",
 	"organization": "1c7c391f-20d4-4349-a8c0-deab71a4de14"
- }
+	    "nodes": [
+	      {
+		"name": "leaf01",
+		"os": "ab39a128-77ec-4209-8a8f-3d24bb30cb3e",
+		"memory": 512,
+		"storage": 2,
+		"cpu": 1,
+		"interfaces": [
+		  {
+		    "name": "eth0",
+		    "connected_to": "leaf01:eth1"
+		  },
+		  {
+		    "name": "eth1",
+		    "connected_to": "leaf01:eth0"
+		  }
+		]
+	      }
+	    ]
+}

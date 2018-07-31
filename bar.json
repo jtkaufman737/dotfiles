@@ -1,6 +1,8 @@
 {
 	"name": "bar 7/31",
 	"duplicate": false,
+	"foo":"foo",
+	"bar":"bar",
 	"organization": "c44dd29e-5804-4d9b-9594-847f765f3978",
 	"nodes": [
           {

@@ -2,7 +2,7 @@
 	{
 		"url":"http://localhost:8000/api/v1/topology/be61657e-4e3d-416e-801f-87c783dc2e37/",
 		"id":"be61657e-4e3d-416e-801f-87c783dc2e37",
-		"name":"exTopology",
+		"name":"example_topo",
 		"organization":"http://localhost:8000/api/v1/organization/4f4f7922-e795-4d07-88e8-017ec0286848/",
 		"nodes":[
 			{

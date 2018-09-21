@@ -1,23 +1,30 @@
-{
-	"name": "NEW BARRY TEST",
-	"organization":"b659beb4-d54e-4c1e-b1b0-c675e8f9e3b2",
-	"nodes": [
-          {
-        	"name": "leaf01",
-        	"os": "e3f8f002-ee14-4234-ac92-1cb0e73312c7",
-        	"memory": 512,
-        	"storage": 2,
-        	"cpu": 1,
-        	"interfaces": [
-          	{
-            		"name": "eth0",
-            		"connected_to": "leaf01:eth1"
-          	},
-          	{
-            		"name": "eth1",
-            		"connected_to": "leaf01:eth0"
-          	}
-              ]
-          }
-       ]
-}
+[
+	{
+		"url":"http://localhost:8000/api/v1/topology/be61657e-4e3d-416e-801f-87c783dc2e37/",
+		"id":"be61657e-4e3d-416e-801f-87c783dc2e37",
+		"name":"exTopology",
+		"organization":"http://localhost:8000/api/v1/organization/4f4f7922-e795-4d07-88e8-017ec0286848/",
+		"nodes":[
+			{
+				"url":"http://localhost:8000/api/v1/node/ab6498e5-9419-429f-9dd8-d010222cf288/",
+				"id":"ab6498e5-9419-429f-9dd8-d010222cf288",
+				"name":"exNode",
+				"os":"http://localhost:8000/api/v1/image/231553a9-b9d9-4351-a888-f286e94a4dbd/",
+				"memory":32,
+				"storage":4,
+				"cpu":2,
+				"interfaces":[
+					{
+						"url":"http://localhost:8000/api/v1/interface/2d430fdf-25e7-474e-bc5f-bc86da9d2bda/",
+						"id":"2d430fdf-25e7-474e-bc5f-bc86da9d2bda",
+						"name":"exInterface","mac_address":"00:00:00:00:00:00",
+						"preserve_mac":false,
+						"connected_to":null,
+						"connected":null,
+						"outbound":false
+					}
+				]
+			}
+		]
+	}
+]

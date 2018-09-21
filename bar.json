@@ -1,11 +1,10 @@
 {
 	"name": "NEW BARRY TEST",
-	"organization":"c44dd29e-5804-4d9b-9594-847f765f3978",
-	"tags": "cae827ca-2489-47ff-969e-49fa2bbfdd7d",
+	"organization":"b659beb4-d54e-4c1e-b1b0-c675e8f9e3b2",
 	"nodes": [
           {
         	"name": "leaf01",
-        	"os": "46ecea0d-1128-4655-8af6-938030496c6b",
+        	"os": "e3f8f002-ee14-4234-ac92-1cb0e73312c7",
         	"memory": 512,
         	"storage": 2,
         	"cpu": 1,

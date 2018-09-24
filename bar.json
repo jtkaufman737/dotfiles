@@ -3,7 +3,7 @@
 		"url":"http://localhost:8000/api/v1/topology/be61657e-4e3d-416e-801f-87c783dc2e37/",
 		"id":"be61657e-4e3d-416e-801f-87c783dc2e37",
 		"name":"example_topo",
-		"organization":"http://localhost:8000/api/v1/organization/b659beb4-d54e-4c1e-b1b0-c675e8f9e3b2/",
+		"organization":"http://localhost:8000/api/v1/organization/4f4f7922-e795-4d07-88e8-017ec0286848/",
 		"nodes":[
 			{
 				"url":"http://localhost:8000/api/v1/node/ab6498e5-9419-429f-9dd8-d010222cf288/",

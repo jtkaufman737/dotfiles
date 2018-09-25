@@ -3,63 +3,7 @@
 	"id": "00b5a6d1-e0f5-4a09-848c-4dd5986eef9e",
 	"name": "Example topology",
 	"organization": "http://localhost:8000/api/v1/organization/0fe44f92-4ed5-4184-af6b-bdff0bfe757d/",
-	"nodes": [{
-			"url": "http://localhost:8000/api/v1/node/911a9760-e56b-4648-aba0-3be030d612a1/",
-			"id": "911a9760-e56b-4648-aba0-3be030d612a1",
-			"name": "exNode",
-			"os": "http://localhost:8000/api/v1/image/d04e1044-89f9-48c2-87f0-51108d3283f9/",
-			"memory": 20000,
-			"storage": 4,
-			"cpu": 20,
-			"interfaces": [{
-				"url": "http://localhost:8000/api/v1/interface/df426b19-cf7a-4ca7-b226-90858a4bac1d/",
-				"id": "df426b19-cf7a-4ca7-b226-90858a4bac1d",
-				"name": "foo",
-				"mac_address": "00:A5:34:52:23:41",
-				"preserve_mac": false,
-				"connected_to": null,
-				"connected": null,
-				"outbound": false
-			}]
-		},
-		{
-			"url": "http://localhost:8000/api/v1/node/5bfc6e99-ee01-4f35-bcc9-29fe7620b130/",
-			"id": "5bfc6e99-ee01-4f35-bcc9-29fe7620b130",
-			"name": "exNode1",
-			"os": "http://localhost:8000/api/v1/image/d04e1044-89f9-48c2-87f0-51108d3283f9/",
-			"memory": 20000,
-			"storage": 4,
-			"cpu": 20,
-			"interfaces": [{
-				"url": "http://localhost:8000/api/v1/interface/f2f6860c-6ac5-47c9-bec1-d0a974fa6a68/",
-				"id": "f2f6860c-6ac5-47c9-bec1-d0a974fa6a68",
-				"name": "foo",
-				"mac_address": "00:A5:34:52:23:41",
-				"preserve_mac": false,
-				"connected_to": null,
-				"connected": null,
-				"outbound": false
-			}]
-		},
-		{
-			"url": "http://localhost:8000/api/v1/node/b5aca104-6e00-4fb2-9daa-f242108f7842/",
-			"id": "b5aca104-6e00-4fb2-9daa-f242108f7842",
-			"name": "exNode2",
-			"os": "http://localhost:8000/api/v1/image/d04e1044-89f9-48c2-87f0-51108d3283f9/",
-			"memory": 20000,
-			"storage": 4,
-			"cpu": 20,
-			"interfaces": [{
-				"url": "http://localhost:8000/api/v1/interface/026d6567-37f8-426f-9447-f74ea195385c/",
-				"id": "026d6567-37f8-426f-9447-f74ea195385c",
-				"name": "foo",
-				"mac_address": "00:A5:34:52:23:41",
-				"preserve_mac": false,
-				"connected_to": null,
-				"connected": null,
-				"outbound": false
-			}]
-		},
+	"nodes": [
 		{
 			"url": "http://localhost:8000/api/v1/node/7636066f-e1d7-45ec-b3d7-b729b0225463/",
 			"id": "7636066f-e1d7-45ec-b3d7-b729b0225463",

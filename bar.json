@@ -63,7 +63,7 @@
 		{
 			"url": "http://localhost:8000/api/v1/node/7636066f-e1d7-45ec-b3d7-b729b0225463/",
 			"id": "7636066f-e1d7-45ec-b3d7-b729b0225463",
-			"name": "exNode1",
+			"name": "exNode76",
 			"os": "http://localhost:8000/api/v1/image/d04e1044-89f9-48c2-87f0-51108d3283f9/",
 			"memory": 20000,
 			"storage": 4,

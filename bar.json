@@ -16,7 +16,7 @@
 {
 "url": "http://localhost:8000/api/v1/interface/df426b19-cf7a-4ca7-b226-90858a4bac1d/",
 "id": "df426b19-cf7a-4ca7-b226-90858a4bac1d",
-"name": "Example interface",
+"name": "exintf",
 "mac_address": "00:A5:34:52:23:41",
 "preserve_mac": false,
 "connected_to": null,
@@ -37,7 +37,7 @@
 {
 "url": "http://localhost:8000/api/v1/interface/f2f6860c-6ac5-47c9-bec1-d0a974fa6a68/",
 "id": "f2f6860c-6ac5-47c9-bec1-d0a974fa6a68",
-"name": "Example interface",
+"name": "exintf",
 "mac_address": "00:A5:34:52:23:41",
 "preserve_mac": false,
 "connected_to": null,
@@ -58,7 +58,7 @@
 {
 "url": "http://localhost:8000/api/v1/interface/026d6567-37f8-426f-9447-f74ea195385c/",
 "id": "026d6567-37f8-426f-9447-f74ea195385c",
-"name": "Example interface",
+"name": "exintf",
 "mac_address": "00:A5:34:52:23:41",
 "preserve_mac": false,
 "connected_to": null,
@@ -79,7 +79,7 @@
 {
 "url": "http://localhost:8000/api/v1/interface/578f333c-39c5-4ef7-a361-78b6a075a07d/",
 "id": "578f333c-39c5-4ef7-a361-78b6a075a07d",
-"name": "Example interface",
+"name": "exint",
 "mac_address": "00:A5:34:52:23:41",
 "preserve_mac": false,
 "connected_to": null,

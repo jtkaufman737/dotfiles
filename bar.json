@@ -1,4 +1,3 @@
-[
 {
 "url": "http://localhost:8000/api/v1/topology/00b5a6d1-e0f5-4a09-848c-4dd5986eef9e/",
 "id": "00b5a6d1-e0f5-4a09-848c-4dd5986eef9e",
@@ -101,5 +100,5 @@
 }
 ]
 }
-]
+
 

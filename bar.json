@@ -1,7 +1,7 @@
 {
-"url": "http://localhost:8000/api/v1/topology/5df8b5e8-b2d5-43fc-849e-2144f2b6ee04/",
-"id": "5df8b5e8-b2d5-43fc-849e-2144f2b6ee04",
-"name": "topo1",
+"url": "http://localhost:8000/api/v1/topology/e3eb2e74-a7f9-49db-aa5b-65a740c27219/",
+"id": "e3eb2e74-a7f9-49db-aa5b-65a740c27219",
+"name": "CEO Topology",
 "organization": "http://localhost:8000/api/v1/organization/ea53f37b-71fd-42fb-a893-956cd3611206/",
 "nodes": [ ]
 }

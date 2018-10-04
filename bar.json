@@ -1,39 +1,38 @@
 {
-"url": "http://localhost:8000/api/v1/topology/93477098-0b22-4c0d-a496-b99c254415fa/",
-"id": "93477098-0b22-4c0d-a496-b99c254415fa",
-"name": "JTK demo topology 10/4",
+"url": "http://localhost:8000/api/v1/topology/756f4066-f88c-4ab2-8fe2-8adcfe55b93e/",
+"id": "756f4066-f88c-4ab2-8fe2-8adcfe55b93e",
+"name": "topo2",
 "organization": "http://localhost:8000/api/v1/organization/ea53f37b-71fd-42fb-a893-956cd3611206/",
 "nodes": [
 {
-"url": "http://localhost:8000/api/v1/node/7a667240-0f49-4b5b-9515-e2b0e7529348/",
-"id": "7a667240-0f49-4b5b-9515-e2b0e7529348",
-"name": "node",
-"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
+"url": "http://localhost:8000/api/v1/node/4c02e9cf-3c1b-435b-a172-3b66abf49583/",
+"id": "4c02e9cf-3c1b-435b-a172-3b66abf49583",
+"name": "Server01",
+"os": "http://localhost:8000/api/v1/image/9cce7e07-70ed-4ce7-9b7a-45a2aeee540c/",
 "memory": 412,
 "storage": 4,
-"cpu": 1,
+"cpu": 2,
 "interfaces": [ ]
 },
 {
-"url": "http://localhost:8000/api/v1/node/25452aff-f7b1-45ab-bee5-c0ba01bac123/",
-"id": "25452aff-f7b1-45ab-bee5-c0ba01bac123",
-"name": "septNode1",
-"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
+"url": "http://localhost:8000/api/v1/node/6f79e7fe-0b72-416b-bbdd-a2d91af5a483/",
+"id": "6f79e7fe-0b72-416b-bbdd-a2d91af5a483",
+"name": "Leaf01",
+"os": "http://localhost:8000/api/v1/image/9cce7e07-70ed-4ce7-9b7a-45a2aeee540c/",
 "memory": 412,
 "storage": 4,
-"cpu": 1,
-"interfaces": [
-{
-"url": "http://localhost:8000/api/v1/interface/5f4c4543-527f-4e05-9d12-209359ccac8e/",
-"id": "5f4c4543-527f-4e05-9d12-209359ccac8e",
-"name": "intf",
-"mac_address": "00:A4:54:C3:F8:A9",
-"preserve_mac": false,
-"connected_to": null,
-"connected": null,
-"outbound": false
-}
-]
-}
-]
+"cpu": 2,
+"interfaces": [ ]
 },
+{
+"url": "http://localhost:8000/api/v1/node/ca413d9a-8ca4-44be-a20f-ca591c04f585/",
+"id": "ca413d9a-8ca4-44be-a20f-ca591c04f585",
+"name": "Spine32",
+"os": "http://localhost:8000/api/v1/image/9cce7e07-70ed-4ce7-9b7a-45a2aeee540c/",
+"memory": 412,
+"storage": 4,
+"cpu": 2,
+"interfaces": [ ]
+}
+]
+}

@@ -1,38 +1,7 @@
 {
-"url": "http://localhost:8000/api/v1/topology/756f4066-f88c-4ab2-8fe2-8adcfe55b93e/",
-"id": "756f4066-f88c-4ab2-8fe2-8adcfe55b93e",
-"name": "topo2",
+"url": "http://localhost:8000/api/v1/topology/5df8b5e8-b2d5-43fc-849e-2144f2b6ee04/",
+"id": "5df8b5e8-b2d5-43fc-849e-2144f2b6ee04",
+"name": "topo1",
 "organization": "http://localhost:8000/api/v1/organization/ea53f37b-71fd-42fb-a893-956cd3611206/",
-"nodes": [
-{
-"url": "http://localhost:8000/api/v1/node/4c02e9cf-3c1b-435b-a172-3b66abf49583/",
-"id": "4c02e9cf-3c1b-435b-a172-3b66abf49583",
-"name": "Server01",
-"os": "http://localhost:8000/api/v1/image/9cce7e07-70ed-4ce7-9b7a-45a2aeee540c/",
-"memory": 412,
-"storage": 4,
-"cpu": 2,
-"interfaces": [ ]
-},
-{
-"url": "http://localhost:8000/api/v1/node/6f79e7fe-0b72-416b-bbdd-a2d91af5a483/",
-"id": "6f79e7fe-0b72-416b-bbdd-a2d91af5a483",
-"name": "Leaf01",
-"os": "http://localhost:8000/api/v1/image/9cce7e07-70ed-4ce7-9b7a-45a2aeee540c/",
-"memory": 412,
-"storage": 4,
-"cpu": 2,
-"interfaces": [ ]
-},
-{
-"url": "http://localhost:8000/api/v1/node/ca413d9a-8ca4-44be-a20f-ca591c04f585/",
-"id": "ca413d9a-8ca4-44be-a20f-ca591c04f585",
-"name": "Spine32",
-"os": "http://localhost:8000/api/v1/image/9cce7e07-70ed-4ce7-9b7a-45a2aeee540c/",
-"memory": 412,
-"storage": 4,
-"cpu": 2,
-"interfaces": [ ]
-}
-]
+"nodes": [ ]
 }

@@ -1,39 +1,7 @@
 {
-"url": "http://localhost:8000/api/v1/topology/0fdb8725-834c-4a39-aa8a-ec013da46400/",
-"id": "0fdb8725-834c-4a39-aa8a-ec013da46400",
-"name": "JTK demo topology 10/4 - Copy",
-"organization": "http://localhost:8000/api/v1/organization/ea53f37b-71fd-42fb-a893-956cd3611206/",
-"nodes": [
-{
-"url": "http://localhost:8000/api/v1/node/326b45b6-ee72-4ed8-87f5-64ff0d43a247/",
-"id": "326b45b6-ee72-4ed8-87f5-64ff0d43a247",
-"name": "node",
-"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
-"memory": 412,
-"storage": 4,
-"cpu": 1,
-"interfaces": [ ]
-},
-{
-"url": "http://localhost:8000/api/v1/node/01dbd505-0681-4de3-8fbd-a535b9d9b905/",
-"id": "01dbd505-0681-4de3-8fbd-a535b9d9b905",
-"name": "septNode1",
-"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
-"memory": 412,
-"storage": 4,
-"cpu": 1,
-"interfaces": [
-{
-"url": "http://localhost:8000/api/v1/interface/023b15d7-24d1-4335-909f-24764d597e0d/",
-"id": "023b15d7-24d1-4335-909f-24764d597e0d",
-"name": "intf",
-"mac_address": "00:A4:54:C3:F8:A9",
-"preserve_mac": false,
-"connected_to": null,
-"connected": null,
-"outbound": false
-}
-]
-}
-]
+"url": "http://localhost:8000/api/v1/topology/29b5cd9e-d616-4105-8b8e-560c003c63a3/",
+"id": "29b5cd9e-d616-4105-8b8e-560c003c63a3",
+"name": "CEO Colo",
+"organization": null,
+"nodes": [ ]
 }

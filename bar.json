@@ -1,12 +1,12 @@
 {
-"url": "http://localhost:8000/api/v1/topology/00eab594-70a3-4124-a153-75f6ab910af2/",
-"id": "00eab594-70a3-4124-a153-75f6ab910af2",
-"name": "GITHUB TEST - Copy - Copy",
+"url": "http://localhost:8000/api/v1/topology/0fdb8725-834c-4a39-aa8a-ec013da46400/",
+"id": "0fdb8725-834c-4a39-aa8a-ec013da46400",
+"name": "JTK demo topology 10/4 - Copy",
 "organization": "http://localhost:8000/api/v1/organization/ea53f37b-71fd-42fb-a893-956cd3611206/",
 "nodes": [
 {
-"url": "http://localhost:8000/api/v1/node/35004cfd-b4fa-40f2-b4f9-c93e38a2c9da/",
-"id": "35004cfd-b4fa-40f2-b4f9-c93e38a2c9da",
+"url": "http://localhost:8000/api/v1/node/326b45b6-ee72-4ed8-87f5-64ff0d43a247/",
+"id": "326b45b6-ee72-4ed8-87f5-64ff0d43a247",
 "name": "node",
 "os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
 "memory": 412,
@@ -15,8 +15,8 @@
 "interfaces": [ ]
 },
 {
-"url": "http://localhost:8000/api/v1/node/33b9140b-ef2e-4e4a-bf8e-9a3c42ef8664/",
-"id": "33b9140b-ef2e-4e4a-bf8e-9a3c42ef8664",
+"url": "http://localhost:8000/api/v1/node/01dbd505-0681-4de3-8fbd-a535b9d9b905/",
+"id": "01dbd505-0681-4de3-8fbd-a535b9d9b905",
 "name": "septNode1",
 "os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
 "memory": 412,
@@ -24,8 +24,8 @@
 "cpu": 1,
 "interfaces": [
 {
-"url": "http://localhost:8000/api/v1/interface/d004e4bc-182a-42c1-93dd-b8767e2b4518/",
-"id": "d004e4bc-182a-42c1-93dd-b8767e2b4518",
+"url": "http://localhost:8000/api/v1/interface/023b15d7-24d1-4335-909f-24764d597e0d/",
+"id": "023b15d7-24d1-4335-909f-24764d597e0d",
 "name": "intf",
 "mac_address": "00:A4:54:C3:F8:A9",
 "preserve_mac": false,
@@ -37,5 +37,3 @@
 }
 ]
 }
-
- 

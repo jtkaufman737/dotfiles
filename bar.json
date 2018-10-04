@@ -1,7 +1,39 @@
 {
-"url": "http://localhost:8000/api/v1/topology/29b5cd9e-d616-4105-8b8e-560c003c63a3/",
-"id": "29b5cd9e-d616-4105-8b8e-560c003c63a3",
-"name": "CEO Colo",
+"url": "http://localhost:8000/api/v1/topology/167877c5-0864-4ade-b56f-504c2febb3f0/",
+"id": "167877c5-0864-4ade-b56f-504c2febb3f0",
+"name": "GITHUB TEST OCT 2",
 "organization": null,
-"nodes": [ ]
+"nodes": [
+{
+"url": "http://localhost:8000/api/v1/node/ab22eea0-74a7-426e-9297-71b0e703f42c/",
+"id": "ab22eea0-74a7-426e-9297-71b0e703f42c",
+"name": "node",
+"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
+"memory": 412,
+"storage": 4,
+"cpu": 1,
+"interfaces": [ ]
+},
+{
+"url": "http://localhost:8000/api/v1/node/63b77198-f61a-497e-bd51-7c18297a9ab7/",
+"id": "63b77198-f61a-497e-bd51-7c18297a9ab7",
+"name": "septNode1",
+"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
+"memory": 412,
+"storage": 4,
+"cpu": 1,
+"interfaces": [
+{
+"url": "http://localhost:8000/api/v1/interface/711fd99c-ffa1-4f52-964b-04677fa1048f/",
+"id": "711fd99c-ffa1-4f52-964b-04677fa1048f",
+"name": "intf",
+"mac_address": "00:A4:54:C3:F8:A9",
+"preserve_mac": false,
+"connected_to": null,
+"connected": null,
+"outbound": false
+}
+]
+}
+]
 }

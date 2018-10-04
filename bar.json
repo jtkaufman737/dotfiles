@@ -1,8 +1,39 @@
 {
-"url": "http://localhost:8000/api/v1/topology/29b5cd9e-d616-4105-8b8e-560c003c63a3/",
-"id": "29b5cd9e-d616-4105-8b8e-560c003c63a3",
-"name": "CEO Colo",
+"url": "http://localhost:8000/api/v1/topology/f776bd20-60a9-4a9a-8ebb-27eac089564c/",
+"id": "f776bd20-60a9-4a9a-8ebb-27eac089564c",
+"name": "GITHUB TEST OCT 2",
 "organization": "http://localhost:8000/api/v1/organization/c6831e7a-88c5-4758-90ea-03ba59f8ac15/",
-"nodes": [ ]
+"nodes": [
+{
+"url": "http://localhost:8000/api/v1/node/2eea9f4c-2468-48ee-b252-19879b49ad65/",
+"id": "2eea9f4c-2468-48ee-b252-19879b49ad65",
+"name": "septNode",
+"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
+"memory": 412,
+"storage": 4,
+"cpu": 1,
+"interfaces": [ ]
 },
- 
+{
+"url": "http://localhost:8000/api/v1/node/d2e0c7a8-d7b4-48ab-b607-f7aeaa079f08/",
+"id": "d2e0c7a8-d7b4-48ab-b607-f7aeaa079f08",
+"name": "septNode1",
+"os": "http://localhost:8000/api/v1/image/fa4afbe1-9a41-4d50-9756-9cfbee987ffb/",
+"memory": 412,
+"storage": 4,
+"cpu": 1,
+"interfaces": [
+{
+"url": "http://localhost:8000/api/v1/interface/fd7ea5df-1ed3-42ae-a8b4-9d4e7077426d/",
+"id": "fd7ea5df-1ed3-42ae-a8b4-9d4e7077426d",
+"name": "intf",
+"mac_address": "00:A4:54:C3:F8:A9",
+"preserve_mac": false,
+"connected_to": null,
+"connected": null,
+"outbound": false
+}
+]
+}
+]
+},

@@ -1,7 +1,28 @@
 {
-"url": "http://localhost:8000/api/v1/topology/e3eb2e74-a7f9-49db-aa5b-65a740c27219/",
-"id": "e3eb2e74-a7f9-49db-aa5b-65a740c27219",
-"name": "CEO Topology",
-"organization": "http://localhost:8000/api/v1/organization/ea53f37b-71fd-42fb-a893-956cd3611206/",
-"nodes": [ ]
-}
+        "url": "http://localhost:8000/api/v1/topology/68ad2dca-2edc-4d2f-81c8-a04b0b296d51/",
+        "id": "68ad2dca-2edc-4d2f-81c8-a04b0b296d51",
+        "name": "topo1",
+        "organization": "http://localhost:8000/api/v1/organization/be1bf5d8-c6f7-469e-bf6a-dbcc42ebfc9b/",
+        "nodes": [
+            {
+                "url": "http://localhost:8000/api/v1/node/ca471c3c-b3d2-4a14-8c76-2ba045451259/",
+                "id": "ca471c3c-b3d2-4a14-8c76-2ba045451259",
+                "name": "node2",
+                "os": "http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
+                "memory": 512,
+                "storage": 4,
+                "cpu": 1,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/ed9dde8f-bf33-4812-8f4c-ae1b89aa2a11/",
+                "id": "ed9dde8f-bf33-4812-8f4c-ae1b89aa2a11",
+                "name": "node1",
+                "os": "http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
+                "memory": 512,
+                "storage": 4,
+                "cpu": 1,
+                "interfaces": []
+            }
+        ]
+    }

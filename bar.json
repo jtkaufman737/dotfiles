@@ -1,28 +1,8 @@
 {
-    "url": "http://localhost:8000/api/v1/topology/1d143076-0ef3-4479-b335-dc620e87e622/",
-    "id": "1d143076-0ef3-4479-b335-dc620e87e622",
     "name": "topo2",
     "organization": "http://localhost:8000/api/v1/organization/be1bf5d8-c6f7-469e-bf6a-dbcc42ebfc9b/",
     "nodes": [
-        {
-            "url": "http://localhost:8000/api/v1/node/64367817-57b9-4d10-be42-7e7cd68518b4/",
-            "id": "64367817-57b9-4d10-be42-7e7cd68518b4",
-            "name": "node1",
-            "os": "http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
-            "memory": 512,
-            "storage": 4,
-            "cpu": 1,
-            "interfaces": []
-        },
-        {
-            "url": "http://localhost:8000/api/v1/node/62ab34a1-5622-48f8-aa2e-4e82e40ffc20/",
-            "id": "62ab34a1-5622-48f8-aa2e-4e82e40ffc20",
-            "name": "node2",
-            "os": "http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
-            "memory": 512,
-            "storage": 4,
-            "cpu": 1,
-            "interfaces": []
-        }
+        foo: bar, 
+        a: b 
     ]
 }

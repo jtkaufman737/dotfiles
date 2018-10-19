@@ -2,7 +2,7 @@
     "name": "topo2",
     "organization": "http://localhost:8000/api/v1/organization/be1bf5d8-c6f7-469e-bf6a-dbcc42ebfc9b/",
     "nodes": [
-        foo: bar, 
-        a: b 
+        'foo': 'bar', 
+        'a': 'b' 
     ]
 }

@@ -2,13 +2,24 @@
    "organization": "be1bf5d8-c6f7-469e-bf6a-dbcc42ebfc9b",
    "name": "TEST GITHUB FIX",
    "nodes": [
-      {
-       "name": "TEST GITHUB",
-       "os":"http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
-       "interfaces":[],
-       "memory": 2,
-       "storage":2,
-       "cpu":1
-      }  
+     {
+        "url": "http://localhost:8000/api/v1/node/5bf4eb3f-fcdc-4b29-931b-588b6a3e2677/",
+        "id": "5bf4eb3f-fcdc-4b29-931b-588b6a3e2677",
+        "name": "testNodeCreationBug1",
+        "os": "http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
+        "memory": 2,
+        "storage": 2,
+        "cpu": 1,
+        "interfaces": [
+            {
+                "url": "http://localhost:8000/api/v1/interface/7939fc4e-34bf-441f-a176-58c4c093c5db/",
+                "id": "7939fc4e-34bf-441f-a176-58c4c093c5db",
+                "name": "abc",
+                "mac_address": null,
+                "preserve_mac": false
+            }
+        ],
+        "topology": "http://localhost:8000/api/v1/topology/8306a177-94c2-4771-8c94-22f4dd066718/"
+    },
          ]  
   }

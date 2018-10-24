@@ -20,6 +20,6 @@
             }
         ],
         "topology": "http://localhost:8000/api/v1/topology/8306a177-94c2-4771-8c94-22f4dd066718/"
-    },
+    }
          ]  
   }

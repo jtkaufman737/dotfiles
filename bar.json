@@ -1,32 +1,63 @@
 {
-    "name": "NEW GITHUB STAGING SITE TEST ",
+    "name": "New Example",
     "organization": "7c3aea2d-47bd-4206-8ed3-3de6d8bb1206",
     "nodes": [
-            {
-        "url": "http://alpha.wb.cumulusnetworks.com/api/v1/node/04d5152f-0202-4d71-ac4f-bfb772a63335/",
-        "id": "04d5152f-0202-4d71-ac4f-bfb772a63335",
-        "name": "leaf02",
-        "os": "http://alpha.wb.cumulusnetworks.com/api/v1/image/b9bda65f-d1a8-406e-a889-8e91f296b383/",
-        "memory": 1024,
-        "storage": 2,
-        "cpu": 1,
-        "interfaces": [
-            {
-                "url": "http://alpha.wb.cumulusnetworks.com/api/v1/interface/0bf10ab2-d2ba-4237-87ad-8dd64eb79ec4/",
-                "id": "0bf10ab2-d2ba-4237-87ad-8dd64eb79ec4",
-                "name": "swp1",
-                "mac_address": "ba:48:7a:5b:3c:d7",
-                "preserve_mac": false
-            },
-            {
-                "url": "http://alpha.wb.cumulusnetworks.com/api/v1/interface/9556eec3-5f2c-49e2-9795-fe292229b11f/",
-                "id": "9556eec3-5f2c-49e2-9795-fe292229b11f",
-                "name": "eth0",
-                "mac_address": "02:d8:3a:07:7b:86",
-                "preserve_mac": false
-            }
-        ],
-        "topology": "http://alpha.wb.cumulusnetworks.com/api/v1/topology/1052eb5d-3d39-490b-84cd-04ce9eb993a5/"
-    }
+        {
+            "name": "leaf01",
+            "os":   "b9bda65f-d1a8-406e-a889-8e91f296b383",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "name": "eth0",
+                    "mac_address": "70:bc:50:dc:6a:1a",
+                    "preserve_mac": false
+                },
+                {
+                    "name": "swp1",
+                    "mac_address": "3a:38:7f:62:88:8d",
+                    "preserve_mac": false
+                },
+                {
+                    "name": "swp4",
+                    "mac_address": "3a:38:7f:62:88:8e",
+                    "preserve_mac": false
+                }
+            ]
+        },
+        {
+            "name": "leaf02",
+            "os": "b9bda65f-d1a8-406e-a889-8e91f296b383",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "name": "eth0",
+                    "mac_address": "02:d8:3a:07:7b:86",
+                    "preserve_mac": false
+                },
+                {
+                    "name": "swp1",
+                    "mac_address": "ba:48:7a:5b:3c:d7",
+                    "preserve_mac": false
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "interfaces": [
+                {
+                    "node": "leaf01",
+                    "interface": "swp1"
+                },
+                {
+                    "node": "leaf02",
+                    "interface": "swp1"
+                }
+            ]
+        }
     ]
 }

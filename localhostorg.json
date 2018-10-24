@@ -1,0 +1,11 @@
+{ 
+   "organization": "be1bf5d8-c6f7-469e-bf6a-dbcc42ebfc9b",
+   "nodes": [
+       "name": "TEST GITHUB",
+       "os":"http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
+       "interfaces":[],
+       "memory": 2,
+       "storage":2,
+       "cpu":1
+       ]
+  }

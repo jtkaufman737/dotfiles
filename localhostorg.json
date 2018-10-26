@@ -1,6 +1,6 @@
 { 
    "organization": "be1bf5d8-c6f7-469e-bf6a-dbcc42ebfc9b",
-   "name": "TEST GITHUB FIX",
+   "name": "TEST GITHUB 10-26",
    "nodes": [
      {
         "url": "http://localhost:8000/api/v1/node/5bf4eb3f-fcdc-4b29-931b-588b6a3e2677/",

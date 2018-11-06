@@ -1,6 +1,5 @@
 { 
-   "organization": "be1bf5d8-c6f7-469e-bf6a-dbcc42ebfc9b",
-   "name": "TEST GITHUB 11-1 VERSION I",
+   "name": "TEST NEW ORG MECHANISM",
    "nodes": [
      {
         "name": "testNodeCreationBug1",

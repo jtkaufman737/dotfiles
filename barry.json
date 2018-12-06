@@ -1,0 +1,59 @@
+{
+    "name": "Test Topology",
+    "organization": "b5029590-06b2-46c3-9b77-7ef58a9a9745",
+    "nodes": [
+        {
+            "name": "leaf01",
+            "os":   "e747e480-8651-46e1-b378-416d3e5f9042",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "name": "eth0",
+                    "mac_address": "70:bc:50:dc:6a:1a",
+                    "preserve_mac": false,
+                    "outbound": true
+                },
+                {
+                    "name": "swp1",
+                    "mac_address": "3a:38:7f:62:88:8d",
+                    "preserve_mac": false
+                }
+            ]
+        },
+        {
+            "name": "leaf02",
+            "os": "e747e480-8651-46e1-b378-416d3e5f9042",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "name": "eth0",
+                    "mac_address": "02:d8:3a:07:7b:86",
+                    "preserve_mac": false
+                },
+                {
+                    "name": "swp1",
+                    "mac_address": "ba:48:7a:5b:3c:d7",
+                    "preserve_mac": false
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "interfaces": [
+                {
+                    "node": "leaf01",
+                    "interface": "swp1"
+                },
+                {
+                    "node": "leaf02",
+                    "interface": "swp1"
+                }
+            ]
+        }
+    ]
+}

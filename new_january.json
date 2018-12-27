@@ -1,0 +1,78 @@
+{
+        "url": "http://dev.wb.cumulusnetworks.com/api/v1/topology/038b6dd7-016c-4388-a37c-b00b631d08dd/",
+        "id": "038b6dd7-016c-4388-a37c-b00b631d08dd",
+        "name": "test demo thingy",
+        "organization": "http://dev.wb.cumulusnetworks.com/api/v1/organization/7c3aea2d-47bd-4206-8ed3-3de6d8bb1206/",
+        "nodes": [
+            {
+                "url": "http://dev.wb.cumulusnetworks.com/api/v1/node/7d048d1c-884d-4340-a7e9-e453b9454694/",
+                "id": "7d048d1c-884d-4340-a7e9-e453b9454694",
+                "name": "leaf02",
+                "os": "http://dev.wb.cumulusnetworks.com/api/v1/image/b9bda65f-d1a8-406e-a889-8e91f296b383/",
+                "memory": 1024,
+                "storage": 2,
+                "cpu": 1,
+                "interfaces": [
+                    {
+                        "url": "http://dev.wb.cumulusnetworks.com/api/v1/interface/12850263-0e92-4dce-a9bc-23fb881402f5/",
+                        "id": "12850263-0e92-4dce-a9bc-23fb881402f5",
+                        "name": "eth0",
+                        "mac_address": "02:d8:3a:07:7b:86",
+                        "preserve_mac": false
+                    },
+                    {
+                        "url": "http://dev.wb.cumulusnetworks.com/api/v1/interface/e6e50c3c-3a0d-4cb0-b496-d726c71c8f62/",
+                        "id": "e6e50c3c-3a0d-4cb0-b496-d726c71c8f62",
+                        "name": "swp1",
+                        "mac_address": "ba:48:7a:5b:3c:d7",
+                        "preserve_mac": false
+                    }
+                ]
+            },
+            {
+                "url": "http://dev.wb.cumulusnetworks.com/api/v1/node/f1529e04-5ec9-417f-b108-7c40446fe923/",
+                "id": "f1529e04-5ec9-417f-b108-7c40446fe923",
+                "name": "leaf01",
+                "os": "http://dev.wb.cumulusnetworks.com/api/v1/image/b9bda65f-d1a8-406e-a889-8e91f296b383/",
+                "memory": 1024,
+                "storage": 2,
+                "cpu": 1,
+                "interfaces": [
+                    {
+                        "url": "http://dev.wb.cumulusnetworks.com/api/v1/interface/8aac175d-c571-4fd0-b11f-2d0e54779a3d/",
+                        "id": "8aac175d-c571-4fd0-b11f-2d0e54779a3d",
+                        "name": "eth0",
+                        "mac_address": "70:bc:50:dc:6a:1a",
+                        "preserve_mac": false
+                    },
+                    {
+                        "url": "http://dev.wb.cumulusnetworks.com/api/v1/interface/f16c17a7-864f-4d0c-9304-54fb7b7acb90/",
+                        "id": "f16c17a7-864f-4d0c-9304-54fb7b7acb90",
+                        "name": "swp1",
+                        "mac_address": "3a:38:7f:62:88:8d",
+                        "preserve_mac": false
+                    }
+                ]
+            }
+        ],
+        "links": [
+            {
+                "url": "http://dev.wb.cumulusnetworks.com/api/v1/link/05034458-6794-433c-a0c1-a59f43a5c62e/",
+                "id": "05034458-6794-433c-a0c1-a59f43a5c62e",
+                "interfaces": [
+                    {
+                        "url": "http://dev.wb.cumulusnetworks.com/api/v1/interface/e6e50c3c-3a0d-4cb0-b496-d726c71c8f62/",
+                        "id": "e6e50c3c-3a0d-4cb0-b496-d726c71c8f62",
+                        "node": "leaf02",
+                        "interface": "swp1"
+                    },
+                    {
+                        "url": "http://dev.wb.cumulusnetworks.com/api/v1/interface/f16c17a7-864f-4d0c-9304-54fb7b7acb90/",
+                        "id": "f16c17a7-864f-4d0c-9304-54fb7b7acb90",
+                        "node": "leaf01",
+                        "interface": "swp1"
+                    }
+                ]
+            }
+        ]
+    }

@@ -1,24 +1,89 @@
 {
-   "name": "TEST GITHUB FIX new nov 28th",
-   "nodes": [
-     {
-        "url": "http://localhost:8000/api/v1/node/5bf4eb3f-fcdc-4b29-931b-588b6a3e2677/",
-        "id": "5bf4eb3f-fcdc-4b29-931b-588b6a3e2677",
-        "name": "testNodeCreationBug1",
-        "os": "http://localhost:8000/api/v1/image/43812e78-9e1b-4c1a-8bf1-56ed84775db2/",
-        "memory": 2,
-        "storage": 2,
-        "cpu": 1,
-        "interfaces": [
-            {
-                "url": "http://localhost:8000/api/v1/interface/7939fc4e-34bf-441f-a176-58c4c093c5db/",
-                "id": "7939fc4e-34bf-441f-a176-58c4c093c5db",
-                "name": "abc",
-                "mac_address": null,
-                "preserve_mac": false
-            }
-        ],
-        "topology": "http://localhost:8000/api/v1/topology/8306a177-94c2-4771-8c94-22f4dd066718/"
-    }
-         ]
-  }
+    "url": "http://localhost:8000/api/v1/topology/d5b26b8a-673d-4ae3-9dfd-1714dc394984/",
+    "id": "d5b26b8a-673d-4ae3-9dfd-1714dc394984",
+    "name": "NEW GITHUB EXAMPLE FEBRUARY",
+    "nodes": [
+        {
+            "url": "http://localhost:8000/api/v1/node/c33262ad-25eb-4510-8fea-357ab77c00cf/",
+            "id": "c33262ad-25eb-4510-8fea-357ab77c00cf",
+            "name": "leaf01",
+            "os": "http://localhost:8000/api/v1/image/19a613cd-e9a9-4cf8-8c6d-dab680ab118e/",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "url": "http://localhost:8000/api/v1/interface/193cdeef-4f21-422a-adbe-965675feeaac/",
+                    "id": "193cdeef-4f21-422a-adbe-965675feeaac",
+                    "name": "eth0",
+                    "mac_address": "70:bc:50:dc:6a:1a",
+                    "outbound": false,
+                    "preserve_mac": false
+                },
+                {
+                    "url": "http://localhost:8000/api/v1/interface/5044cb96-da68-4b39-a6aa-fabf234742d8/",
+                    "id": "5044cb96-da68-4b39-a6aa-fabf234742d8",
+                    "name": "swp1",
+                    "mac_address": "3a:38:7f:62:88:8d",
+                    "outbound": false,
+                    "preserve_mac": false
+                },
+                {
+                    "url": "http://localhost:8000/api/v1/interface/fc5e7f46-b0a1-4634-9ef4-79c32d6d3605/",
+                    "id": "fc5e7f46-b0a1-4634-9ef4-79c32d6d3605",
+                    "name": "swp4",
+                    "mac_address": "3a:38:7f:62:88:8e",
+                    "outbound": false,
+                    "preserve_mac": false
+                }
+            ]
+        },
+        {
+            "url": "http://localhost:8000/api/v1/node/21cedef4-cdf2-4b6f-92d7-d6ebc1b81751/",
+            "id": "21cedef4-cdf2-4b6f-92d7-d6ebc1b81751",
+            "name": "leaf02",
+            "os": "http://localhost:8000/api/v1/image/19a613cd-e9a9-4cf8-8c6d-dab680ab118e/",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "url": "http://localhost:8000/api/v1/interface/ecd22a7f-625b-49ad-88cf-8e965a6bf97c/",
+                    "id": "ecd22a7f-625b-49ad-88cf-8e965a6bf97c",
+                    "name": "eth0",
+                    "mac_address": "02:d8:3a:07:7b:86",
+                    "outbound": false,
+                    "preserve_mac": false
+                },
+                {
+                    "url": "http://localhost:8000/api/v1/interface/fc8bba28-725b-4ee1-8798-0ccfa0dff1ba/",
+                    "id": "fc8bba28-725b-4ee1-8798-0ccfa0dff1ba",
+                    "name": "swp1",
+                    "mac_address": "ba:48:7a:5b:3c:d7",
+                    "outbound": false,
+                    "preserve_mac": false
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "url": "http://localhost:8000/api/v1/link/9e038386-4b40-443d-bf40-b35f09f98f03/",
+            "id": "9e038386-4b40-443d-bf40-b35f09f98f03",
+            "interfaces": [
+                {
+                    "url": "http://localhost:8000/api/v1/interface/5044cb96-da68-4b39-a6aa-fabf234742d8/",
+                    "id": "5044cb96-da68-4b39-a6aa-fabf234742d8",
+                    "node": "leaf01",
+                    "interface": "swp1"
+                },
+                {
+                    "url": "http://localhost:8000/api/v1/interface/fc8bba28-725b-4ee1-8798-0ccfa0dff1ba/",
+                    "id": "fc8bba28-725b-4ee1-8798-0ccfa0dff1ba",
+                    "node": "leaf02",
+                    "interface": "swp1"
+                }
+            ]
+        }
+    ]
+}

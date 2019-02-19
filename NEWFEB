@@ -1,0 +1,50 @@
+{
+    "name": "Test Topology",
+    "nodes": [
+        {
+            "name": "leaf01",
+            "os":   "6ca16b02-9ad3-46a8-90c2-d820e454f143",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "name": "eth0",
+                    "outbound": true
+                },
+                {
+                    "name": "swp1"
+                }
+            ]
+        },
+        {
+            "name": "leaf02",
+            "os": "6ca16b02-9ad3-46a8-90c2-d820e454f143",
+            "memory": 1024,
+            "storage": 2,
+            "cpu": 1,
+            "interfaces": [
+                {
+                    "name": "eth0"
+                },
+                {
+                    "name": "swp1"
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "interfaces": [
+                {
+                    "node": "leaf01",
+                    "interface": "swp1"
+                },
+                {
+                    "node": "leaf02",
+                    "interface": "swp1"
+                }
+            ]
+        }
+    ]
+}

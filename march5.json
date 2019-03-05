@@ -1,0 +1,11 @@
+    {
+        "url": "http://a01-stage.wb.cumulusnetworks.com/api/v1/simulation/0ae0ac3c-0285-496a-9994-020c4d1dee58/",
+        "id": "0ae0ac3c-0285-496a-9994-020c4d1dee58",
+        "topology": "http://a01-stage.wb.cumulusnetworks.com/api/v1/topology/e0252d3d-9527-4422-9321-7157d531c3b2/",
+        "state": "NEW",
+        "nodes": [
+            "http://a01-stage.wb.cumulusnetworks.com/api/v1/simulation-node/4443a084-973c-4f83-a7d4-35f533df0d8b/",
+            "http://a01-stage.wb.cumulusnetworks.com/api/v1/simulation-node/5d4f7cb2-5b8a-4135-a4f2-269101a091ca/"
+        ],
+        "services": []
+    },

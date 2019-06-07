@@ -1,0 +1,87 @@
+{
+        "url": "https://air.cumulusnetworks.com/api/v1/topology/00c00735-883d-4102-81d6-947a531686aa/",
+        "id": "00c00735-883d-4102-81d6-947a531686aa",
+        "name": "JT Test Topology",
+        "organization": "https://air.cumulusnetworks.com/api/v1/organization/0828546e-d8bd-444d-8722-125e13df0c23/",
+        "nodes": [
+            {
+                "url": "https://air.cumulusnetworks.com/api/v1/node/a50e2178-b0b8-47e7-9ba7-62ae3be61ba5/",
+                "id": "a50e2178-b0b8-47e7-9ba7-62ae3be61ba5",
+                "name": "leaf01",
+                "os": "https://air.cumulusnetworks.com/api/v1/image/8776cfb7-16fc-4b5f-918c-d700e5340631/",
+                "memory": 1024,
+                "storage": 2,
+                "cpu": 1,
+                "interfaces": [
+                    {
+                        "url": "https://air.cumulusnetworks.com/api/v1/interface/cb2232e1-5274-4c8e-b3c1-aff15f88844d/",
+                        "id": "cb2232e1-5274-4c8e-b3c1-aff15f88844d",
+                        "name": "eth0",
+                        "mac_address": null,
+                        "outbound": true,
+                        "preserve_mac": false,
+                        "index": 100
+                    },
+                    {
+                        "url": "https://air.cumulusnetworks.com/api/v1/interface/d3e3eb19-5921-4bdc-b43a-0e50bedc7398/",
+                        "id": "d3e3eb19-5921-4bdc-b43a-0e50bedc7398",
+                        "name": "swp1",
+                        "mac_address": null,
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 200
+                    }
+                ]
+            },
+            {
+                "url": "https://air.cumulusnetworks.com/api/v1/node/baebbb1f-9e95-408c-a29d-7efdc950007f/",
+                "id": "baebbb1f-9e95-408c-a29d-7efdc950007f",
+                "name": "leaf02",
+                "os": "https://air.cumulusnetworks.com/api/v1/image/8776cfb7-16fc-4b5f-918c-d700e5340631/",
+                "memory": 1024,
+                "storage": 2,
+                "cpu": 1,
+                "interfaces": [
+                    {
+                        "url": "https://air.cumulusnetworks.com/api/v1/interface/a353acf7-20e7-406f-80ce-c32840b787cc/",
+                        "id": "a353acf7-20e7-406f-80ce-c32840b787cc",
+                        "name": "eth0",
+                        "mac_address": null,
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 100
+                    },
+                    {
+                        "url": "https://air.cumulusnetworks.com/api/v1/interface/dadbaabe-bd84-4cee-b7bc-c7a4eedce1c7/",
+                        "id": "dadbaabe-bd84-4cee-b7bc-c7a4eedce1c7",
+                        "name": "swp1",
+                        "mac_address": null,
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 200
+                    }
+                ]
+            }
+        ],
+        "links": [
+            {
+                "url": "https://air.cumulusnetworks.com/api/v1/link/b5f34281-5052-44d2-a602-cd5094d1b2b0/",
+                "id": "b5f34281-5052-44d2-a602-cd5094d1b2b0",
+                "interfaces": [
+                    {
+                        "url": "https://air.cumulusnetworks.com/api/v1/interface/d3e3eb19-5921-4bdc-b43a-0e50bedc7398/",
+                        "id": "d3e3eb19-5921-4bdc-b43a-0e50bedc7398",
+                        "node": "leaf01",
+                        "interface": "swp1"
+                    },
+                    {
+                        "url": "https://air.cumulusnetworks.com/api/v1/interface/dadbaabe-bd84-4cee-b7bc-c7a4eedce1c7/",
+                        "id": "dadbaabe-bd84-4cee-b7bc-c7a4eedce1c7",
+                        "node": "leaf02",
+                        "interface": "swp1"
+                    }
+                ]
+            }
+        ],
+        "documentation": ""
+    },

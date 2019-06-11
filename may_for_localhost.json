@@ -1,102 +1,12 @@
 {
-        "url": "http://localhost:8000/api/v1/topology/22927b25-e7b5-49d7-b716-3127877ef285/",
-        "id": "22927b25-e7b5-49d7-b716-3127877ef285",
+        "url": "http://localhost:8000/api/v1/topology/0a9d1f41-71c4-4396-8e50-9e273902a5fc/",
+        "id": "0a9d1f41-71c4-4396-8e50-9e273902a5fc",
         "name": "TEST GITHUB UPLOAD",
         "organization": "http://localhost:8000/api/v1/organization/eed8c1ca-d933-41b9-8487-f86927dccf14/",
         "nodes": [
             {
-                "url": "http://localhost:8000/api/v1/node/000979c1-8999-43b4-a89c-046e70d16418/",
-                "id": "000979c1-8999-43b4-a89c-046e70d16418",
-                "name": "node13",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/067feb09-0c87-47c9-a50f-a13662e60c40/",
-                "id": "067feb09-0c87-47c9-a50f-a13662e60c40",
-                "name": "node1453",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/099d4997-971e-4d02-9547-e2f7a1ae0e86/",
-                "id": "099d4997-971e-4d02-9547-e2f7a1ae0e86",
-                "name": "server01",
-                "os": null,
-                "memory": 500,
-                "storage": 500,
-                "cpu": 4,
-                "interfaces": [
-                    {
-                        "url": "http://localhost:8000/api/v1/interface/a4f25e99-18f0-43c9-849e-6ef0313385ec/",
-                        "id": "a4f25e99-18f0-43c9-849e-6ef0313385ec",
-                        "name": "eth01",
-                        "mac_address": "00:00:00:00:00",
-                        "outbound": false,
-                        "preserve_mac": false,
-                        "index": 100
-                    }
-                ]
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/18790dc9-bcb4-4ab7-bf68-bbe0f1935e8b/",
-                "id": "18790dc9-bcb4-4ab7-bf68-bbe0f1935e8b",
-                "name": "node1",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/288aea8e-71ae-430d-9485-8cea0f0ea5d8/",
-                "id": "288aea8e-71ae-430d-9485-8cea0f0ea5d8",
-                "name": "node71",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/5ac71410-0a8e-40c4-860c-63fcfd092e60/",
-                "id": "5ac71410-0a8e-40c4-860c-63fcfd092e60",
-                "name": "node11",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/5d1bfe9e-2ae0-4026-8bd4-a7600175a4b9/",
-                "id": "5d1bfe9e-2ae0-4026-8bd4-a7600175a4b9",
-                "name": "node01",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/770a05a0-abbd-4d22-a461-7f1266c03283/",
-                "id": "770a05a0-abbd-4d22-a461-7f1266c03283",
-                "name": "node19",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/82c83fa0-503d-42af-9abc-1900bb5abd7f/",
-                "id": "82c83fa0-503d-42af-9abc-1900bb5abd7f",
+                "url": "http://localhost:8000/api/v1/node/09a4779b-54d5-4e3e-86a6-3d315d933977/",
+                "id": "09a4779b-54d5-4e3e-86a6-3d315d933977",
                 "name": "node18",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 400,
@@ -105,8 +15,8 @@
                 "interfaces": []
             },
             {
-                "url": "http://localhost:8000/api/v1/node/90b18dd1-33e1-426b-b12c-3f82942ff0ce/",
-                "id": "90b18dd1-33e1-426b-b12c-3f82942ff0ce",
+                "url": "http://localhost:8000/api/v1/node/3093ae1e-5360-489c-b2e3-bf39cac6bf29/",
+                "id": "3093ae1e-5360-489c-b2e3-bf39cac6bf29",
                 "name": "node190",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 400,
@@ -115,8 +25,58 @@
                 "interfaces": []
             },
             {
-                "url": "http://localhost:8000/api/v1/node/b33c6e77-8a76-430b-b334-d647268dd8d2/",
-                "id": "b33c6e77-8a76-430b-b334-d647268dd8d2",
+                "url": "http://localhost:8000/api/v1/node/360868ff-80fa-46ad-a77c-121ccfc1acf2/",
+                "id": "360868ff-80fa-46ad-a77c-121ccfc1acf2",
+                "name": "node13",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/3822cd54-51cb-43bd-abe1-a3174bc78330/",
+                "id": "3822cd54-51cb-43bd-abe1-a3174bc78330",
+                "name": "node71",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/397dcb09-1d43-4d8f-b06f-66aaa22d7aa5/",
+                "id": "397dcb09-1d43-4d8f-b06f-66aaa22d7aa5",
+                "name": "node156",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/42e2eb21-1343-40a0-8b84-56b48c12f144/",
+                "id": "42e2eb21-1343-40a0-8b84-56b48c12f144",
+                "name": "node15",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/46a7ddb1-5439-48bb-b643-e48001a1c538/",
+                "id": "46a7ddb1-5439-48bb-b643-e48001a1c538",
+                "name": "node122",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/4e5fe706-1372-41d8-a2c9-2ffb9c174544/",
+                "id": "4e5fe706-1372-41d8-a2c9-2ffb9c174544",
                 "name": "server03",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 500,
@@ -124,8 +84,8 @@
                 "cpu": 4,
                 "interfaces": [
                     {
-                        "url": "http://localhost:8000/api/v1/interface/362cb73a-18de-43a1-ae0c-8169b6c07d3b/",
-                        "id": "362cb73a-18de-43a1-ae0c-8169b6c07d3b",
+                        "url": "http://localhost:8000/api/v1/interface/f1fec092-8fe2-43be-845d-7fe87a285323/",
+                        "id": "f1fec092-8fe2-43be-845d-7fe87a285323",
                         "name": "eth01",
                         "mac_address": "00:00:00:00:00",
                         "outbound": false,
@@ -135,9 +95,9 @@
                 ]
             },
             {
-                "url": "http://localhost:8000/api/v1/node/c1c19a47-c382-4a94-b71d-3655fff2e78f/",
-                "id": "c1c19a47-c382-4a94-b71d-3655fff2e78f",
-                "name": "node122",
+                "url": "http://localhost:8000/api/v1/node/4e8c7c59-9d21-4c5a-8ba0-5aab4fbfe4f1/",
+                "id": "4e8c7c59-9d21-4c5a-8ba0-5aab4fbfe4f1",
+                "name": "node01",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 400,
                 "storage": 400,
@@ -145,8 +105,18 @@
                 "interfaces": []
             },
             {
-                "url": "http://localhost:8000/api/v1/node/de4832e6-0eb0-49b2-a2ed-261bcb970146/",
-                "id": "de4832e6-0eb0-49b2-a2ed-261bcb970146",
+                "url": "http://localhost:8000/api/v1/node/71bf0c01-edbd-458e-98b0-c98d9c6616ad/",
+                "id": "71bf0c01-edbd-458e-98b0-c98d9c6616ad",
+                "name": "node11",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/76e4c7b1-28ff-4cbd-9578-615edb0721e4/",
+                "id": "76e4c7b1-28ff-4cbd-9578-615edb0721e4",
                 "name": "node21",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 400,
@@ -155,8 +125,48 @@
                 "interfaces": []
             },
             {
-                "url": "http://localhost:8000/api/v1/node/e3c73510-da62-46d1-825d-e54ed550776e/",
-                "id": "e3c73510-da62-46d1-825d-e54ed550776e",
+                "url": "http://localhost:8000/api/v1/node/841b8b5d-fa73-4f1e-a5e4-8b685afc5064/",
+                "id": "841b8b5d-fa73-4f1e-a5e4-8b685afc5064",
+                "name": "server01",
+                "os": null,
+                "memory": 500,
+                "storage": 500,
+                "cpu": 4,
+                "interfaces": [
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/9a0d1b44-4529-4730-9710-47a92d6b5903/",
+                        "id": "9a0d1b44-4529-4730-9710-47a92d6b5903",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 100
+                    }
+                ]
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/8d601166-2d39-4190-838a-1a74e7895fa9/",
+                "id": "8d601166-2d39-4190-838a-1a74e7895fa9",
+                "name": "node14",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/a8963f7f-fc75-451a-aaea-a06958fc5763/",
+                "id": "a8963f7f-fc75-451a-aaea-a06958fc5763",
+                "name": "node19",
+                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "memory": 400,
+                "storage": 400,
+                "cpu": 400,
+                "interfaces": []
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/aad3a6fc-6bae-4170-b4d5-d3c8cef629c7/",
+                "id": "aad3a6fc-6bae-4170-b4d5-d3c8cef629c7",
                 "name": "server02",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 500,
@@ -165,9 +175,9 @@
                 "interfaces": []
             },
             {
-                "url": "http://localhost:8000/api/v1/node/e52cc0ed-f0c4-48af-bc14-c8f3ed43008d/",
-                "id": "e52cc0ed-f0c4-48af-bc14-c8f3ed43008d",
-                "name": "node15",
+                "url": "http://localhost:8000/api/v1/node/af548f77-6933-4586-9129-9adb32bb4ff6/",
+                "id": "af548f77-6933-4586-9129-9adb32bb4ff6",
+                "name": "node1",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 400,
                 "storage": 400,
@@ -175,19 +185,9 @@
                 "interfaces": []
             },
             {
-                "url": "http://localhost:8000/api/v1/node/e69533d3-9723-498e-8eb9-c0855bcb2413/",
-                "id": "e69533d3-9723-498e-8eb9-c0855bcb2413",
-                "name": "node156",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
-                "memory": 400,
-                "storage": 400,
-                "cpu": 400,
-                "interfaces": []
-            },
-            {
-                "url": "http://localhost:8000/api/v1/node/ff0fc5d0-2576-403b-b10b-303864a7ca20/",
-                "id": "ff0fc5d0-2576-403b-b10b-303864a7ca20",
-                "name": "node14",
+                "url": "http://localhost:8000/api/v1/node/b7f59334-edfe-400f-acbe-0eae3be13de8/",
+                "id": "b7f59334-edfe-400f-acbe-0eae3be13de8",
+                "name": "node1453",
                 "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
                 "memory": 400,
                 "storage": 400,

@@ -1,7 +1,7 @@
 {
         "url": "http://localhost:8000/api/v1/topology/0a9d1f41-71c4-4396-8e50-9e273902a5fc/",
         "id": "0a9d1f41-71c4-4396-8e50-9e273902a5fc",
-        "name": "TEST GITHUB UPLOAD",
+        "name": "GITHUB JUNE 11",
         "organization": "http://localhost:8000/api/v1/organization/eed8c1ca-d933-41b9-8487-f86927dccf14/",
         "nodes": [
             {

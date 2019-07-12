@@ -1,7 +1,7 @@
 {
         "url": "http://localhost:8000/api/v1/topology/af3f83c4-991e-48ce-b1f9-463cfb6d40ab/",
         "id": "af3f83c4-991e-48ce-b1f9-463cfb6d40ab",
-        "name": "I have interfaces :p",
+        "name": "I have interfaces :p GITHUB NEW VERSION",
         "organization": "http://localhost:8000/api/v1/organization/4a37226e-53d4-4b2e-977c-b41e44dc82ac/",
         "nodes": [
             {

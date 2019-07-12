@@ -1,1 +1,78 @@
 
+{
+        "url": "http://localhost:8000/api/v1/topology/af3f83c4-991e-48ce-b1f9-463cfb6d40ab/",
+        "id": "af3f83c4-991e-48ce-b1f9-463cfb6d40ab",
+        "name": "I have interfaces :p",
+        "organization": "http://localhost:8000/api/v1/organization/4a37226e-53d4-4b2e-977c-b41e44dc82ac/",
+        "nodes": [
+            {
+                "url": "http://localhost:8000/api/v1/node/b8b9901f-2983-4b38-903b-520d3bbb93b1/",
+                "id": "b8b9901f-2983-4b38-903b-520d3bbb93b1",
+                "name": "node one",
+                "os": "http://localhost:8000/api/v1/image/0cf85d70-79be-4ecc-810e-23284d24559c/",
+                "memory": 200,
+                "storage": 200,
+                "cpu": 200,
+                "interfaces": [
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/7e807ef6-c2c6-4c1f-a83f-05b717c42520/",
+                        "id": "7e807ef6-c2c6-4c1f-a83f-05b717c42520",
+                        "name": "COMMANDLINEINTF",
+                        "mac_address": "12:34:56:78:90:12",
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/970b5433-5dbb-4966-89af-44713bcf489d/",
+                        "id": "970b5433-5dbb-4966-89af-44713bcf489d",
+                        "name": "",
+                        "mac_address": "12:34:56:78:90:12",
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/b78d7b7f-ea18-4709-b22e-3a5967e34485/",
+                        "id": "b78d7b7f-ea18-4709-b22e-3a5967e34485",
+                        "name": "",
+                        "mac_address": "00:00:00:00:00:00",
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/c53bc588-15ed-4008-94e8-b9a869a34f92/",
+                        "id": "c53bc588-15ed-4008-94e8-b9a869a34f92",
+                        "name": "clintf2",
+                        "mac_address": "00:00:00:00:00:00",
+                        "outbound": false,
+                        "preserve_mac": false,
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/c85bb77f-ddb1-4e0c-921b-8ef406b980cc/",
+                "id": "c85bb77f-ddb1-4e0c-921b-8ef406b980cc",
+                "name": "node two",
+                "os": "http://localhost:8000/api/v1/image/0cf85d70-79be-4ecc-810e-23284d24559c/",
+                "memory": 200,
+                "storage": 200,
+                "cpu": 200,
+                "interfaces": [
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/26fe11b6-c9ea-4b0e-8030-541e333da349/",
+                        "id": "26fe11b6-c9ea-4b0e-8030-541e333da349",
+                        "name": "Interface2",
+                        "mac_address": "00:02:02:03:05:04",
+                        "outbound": true,
+                        "preserve_mac": false,
+                        "index": 100
+                    }
+                ]
+            }
+        ],
+        "links": [],
+        "documentation": ""
+    }

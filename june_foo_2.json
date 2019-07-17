@@ -196,5 +196,5 @@
             }
         ],
         "links": [],
-        "documentation": "## Welcome to your Cumulus Air virtual data center \n To get started, enter ```ls a``` in the terminal to take a look at your new virtual environment.  \n\n If you need to brush up on Cumulus Linux, you can check out the documentation at https://docs.cumulusnetworks.com/display/DOCS. \n\n Next, we will be taking a look at some of the options for using _Kubernetes_ with your new virtual environment."
+        "documentation": "## Welcome to your Cumulus Air virtual data center \n\n (link label)[https://google.com] (foofoofoo) [www.foo.com] \n\n If you need to brush up on Cumulus Linux, you can check out the documentation at https://docs.cumulusnetworks.com/display/DOCS. \n\n Next, we will be taking a look at some of the options for using _Kubernetes_ with your new virtual environment."
     }

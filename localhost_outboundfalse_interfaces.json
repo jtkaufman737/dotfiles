@@ -1,7 +1,7 @@
 {
         "url": "http://localhost:8000/api/v1/topology/af3f83c4-991e-48ce-b1f9-463cfb6d40ab/",
         "id": "af3f83c4-991e-48ce-b1f9-463cfb6d40ab",
-        "name": "I have interfaces :p GITHUB NEW VERSION",
+        "name": "I have ONE OUTBOUND INTERFACE",
         "nodes": [
             {
                 "url": "http://localhost:8000/api/v1/node/b8b9901f-2983-4b38-903b-520d3bbb93b1/",
@@ -17,7 +17,7 @@
                         "id": "7e807ef6-c2c6-4c1f-a83f-05b717c42520",
                         "name": "COMMANDLINEINTF",
                         "mac_address": "12:34:56:78:90:12",
-                        "outbound": false,
+                        "outbound": true,
                         "preserve_mac": false,
                         "index": 0
                     },

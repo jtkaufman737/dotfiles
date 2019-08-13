@@ -1,12 +1,9 @@
 {
-        "url": "http://localhost:8000/api/v1/topology/0a9d1f41-71c4-4396-8e50-9e273902a5fc/",
-        "id": "0a9d1f41-71c4-4396-8e50-9e273902a5fc",
-        "name": "GITHUB JUNE 11",
-        "organization": "http://localhost:8000/api/v1/organization/eed8c1ca-d933-41b9-8487-f86927dccf14/",
+        "name": "GITHUB aug 11",
         "nodes": [
             {
                 "name": "node18",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "os": "http://localhost:8000/api/v1/image/5f12aa19-831d-44ff-bd9f-0d49d1df44bc/",
                 "memory": 400,
                 "storage": 400,
                 "cpu": 400,
@@ -17,18 +14,18 @@
             },
             {
                 "name": "node190",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "os": "http://localhost:8000/api/v1/image/5f12aa19-831d-44ff-bd9f-0d49d1df44bc/",
                 "memory": 400,
                 "storage": 400,
                 "cpu": 400,
                 "interfaces": [
-                "http://localhost:8000/api/v1/interface/bd825404-1950-40d9-ab13-f00246d796f2/",
-                "http://localhost:8000/api/v1/interface/766f4e1f-5a88-4a82-921a-3f8bb464e7bf/"
+                  "http://localhost:8000/api/v1/interface/9f93b938-b574-4a03-84f6-2e66481119cd/",
+                  "http://localhost:8000/api/v1/interface/3db7f9d1-f2a5-4741-883c-275ed28f935e/"
                 ]
             },
             {
                 "name": "node13",
-                "os": "http://localhost:8000/api/v1/image/ba5c9b85-8901-4caf-bfa7-aa15ef5fe7f7/",
+                "os": "http://localhost:8000/api/v1/image/5f12aa19-831d-44ff-bd9f-0d49d1df44bc/",
                 "memory": 400,
                 "storage": 400,
                 "cpu": 400,

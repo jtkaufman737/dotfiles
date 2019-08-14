@@ -1,4 +1,4 @@
-    {
+    [{
         "url": "http://localhost:8000/api/v1/topology/eaa43900-cd0f-45ea-81b7-cba778a33298/",
         "id": "eaa43900-cd0f-45ea-81b7-cba778a33298",
         "name": "DC1",

@@ -1,0 +1,116 @@
+[
+    {
+        "url": "http://localhost:8000/api/v1/topology/ca233399-8ba4-40cb-bc44-629075c37946/",
+        "id": "ca233399-8ba4-40cb-bc44-629075c37946",
+        "name": "AUG14SERVICETEST",
+        "organization": "http://localhost:8000/api/v1/organization/c82748ca-94f8-422c-a05e-e9ed0cbe3e81/",
+        "nodes": [],
+        "links": [],
+        "documentation": ""
+    },
+    {
+        "url": "http://localhost:8000/api/v1/topology/eaa43900-cd0f-45ea-81b7-cba778a33298/",
+        "id": "eaa43900-cd0f-45ea-81b7-cba778a33298",
+        "name": "DC1",
+        "organization": "http://localhost:8000/api/v1/organization/c82748ca-94f8-422c-a05e-e9ed0cbe3e81/",
+        "nodes": [
+            {
+                "url": "http://localhost:8000/api/v1/node/6ee430ae-f256-4b15-a6f0-df20f55a6906/",
+                "id": "6ee430ae-f256-4b15-a6f0-df20f55a6906",
+                "name": "server01",
+                "os": "http://localhost:8000/api/v1/image/5f12aa19-831d-44ff-bd9f-0d49d1df44bc/",
+                "memory": 500,
+                "storage": 500,
+                "cpu": 4,
+                "interfaces": [
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/9f93b938-b574-4a03-84f6-2e66481119cd/",
+                        "id": "9f93b938-b574-4a03-84f6-2e66481119cd",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/bd825404-1950-40d9-ab13-f00246d796f2/",
+                        "id": "bd825404-1950-40d9-ab13-f00246d796f2",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/6e2297f6-da40-4bc4-a2f7-2d0b73a77657/",
+                        "id": "6e2297f6-da40-4bc4-a2f7-2d0b73a77657",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/c985f591-6136-49ef-80de-ead72a2b856f/",
+                        "id": "c985f591-6136-49ef-80de-ead72a2b856f",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/d4843f2f-efc0-4295-9d77-f3430ce2b2c0/",
+                "id": "d4843f2f-efc0-4295-9d77-f3430ce2b2c0",
+                "name": "server02",
+                "os": "http://localhost:8000/api/v1/image/5f12aa19-831d-44ff-bd9f-0d49d1df44bc/",
+                "memory": 500,
+                "storage": 500,
+                "cpu": 4,
+                "interfaces": [
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/3db7f9d1-f2a5-4741-883c-275ed28f935e/",
+                        "id": "3db7f9d1-f2a5-4741-883c-275ed28f935e",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/766f4e1f-5a88-4a82-921a-3f8bb464e7bf/",
+                        "id": "766f4e1f-5a88-4a82-921a-3f8bb464e7bf",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/e043cec7-5600-45f0-97aa-82ef27d03506/",
+                        "id": "e043cec7-5600-45f0-97aa-82ef27d03506",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    },
+                    {
+                        "url": "http://localhost:8000/api/v1/interface/53f8ba62-8d59-45e9-a0e1-ef31a494212c/",
+                        "id": "53f8ba62-8d59-45e9-a0e1-ef31a494212c",
+                        "name": "eth01",
+                        "mac_address": "00:00:00:00:00",
+                        "outbound": true,
+                        "index": 0
+                    }
+                ]
+            },
+            {
+                "url": "http://localhost:8000/api/v1/node/f0c9f221-b9bf-49ef-8b75-d4c4b0e47a63/",
+                "id": "f0c9f221-b9bf-49ef-8b75-d4c4b0e47a63",
+                "name": "server03",
+                "os": "http://localhost:8000/api/v1/image/5f12aa19-831d-44ff-bd9f-0d49d1df44bc/",
+                "memory": 500,
+                "storage": 500,
+                "cpu": 4,
+                "interfaces": []
+            }
+        ],
+        "links": [],
+        "documentation": ""
+    }
